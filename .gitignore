@@ -1,8 +1,12 @@
-01_fibanocci
-Untitled
-quard1
-class strength
-01_while_loop
-01_practice_upto_n_nat_num
-01_practice_incometax
-01_practice
+01_fibanocci/
+Untitled/
+quard1/
+class strength/
+01_while_loop/
+01_practice_upto_n_nat_num/
+01_practice_incometax/
+01_practice/
+# ignore all exe
+* .exe
+
+New folder/
