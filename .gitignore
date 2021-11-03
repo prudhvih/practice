@@ -7,6 +7,5 @@ class strength/
 01_practice_incometax/
 01_practice/
 # ignore all exe
-* .exe
+*.exe
 
-New folder/
