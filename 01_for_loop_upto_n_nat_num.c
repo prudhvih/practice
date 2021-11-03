@@ -5,5 +5,7 @@ int main(){
     int n;
     printf("enter your number : ");
     scanf("%d", &n);
+    for(a;a<=n;a++)
+    printf("%d\n",a);
     return 0;
 }
