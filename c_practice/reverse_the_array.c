@@ -1,5 +1,5 @@
 #include <stdio.h>
-//function to reverse the varables order in a array
+//function to reverse the varables order in an array
 void rev(int arr[], int n)
 {
     int temp;
@@ -12,11 +12,20 @@ void rev(int arr[], int n)
 }
 int main()
 {
-    int arr[] = {1, 2, 3, 4, 5, 6, 7};
-    rev(arr, 7);
-    for (int j = 0; j < 7; j++)
+    int k;
+    int arr[k];
+    printf("Enter the No.of varable to reverse : ");
+    scanf("%d",&k);
+    for (int i=0;i<k;i++)
     {
-        printf("%d\t", arr[j]);
+    printf("Enter No.%d variable : ",i+1);
+    scanf("%d",&arr[i]);
+    }
+    rev(arr,k);
+    printf("\n\n*--_--**--_--**--_--**--_--*\n\n");
+    for (int j = 0; j < k; j++)
+    {
+        printf("No.%d variable is :%d\n",(j+1) ,arr[j]);
     }
 
     return 0;
