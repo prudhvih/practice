@@ -5,10 +5,11 @@ void tab(int *ptr, int k)
     int mul;
     for (int j = 0; j < k; j++)
     {
+        //*(ptr+j) we can use arr[j] instead if *(ptr+j)
         for (int i = 0; i < 10; i++)
         {
-            mul = (*ptr + j) * (i + 1);
-            printf("%d x %d =%d\n", (*ptr + j), i + 1, mul);
+            mul = *(ptr+j) * (i + 1);
+            printf("%d x %d =%d\n", *(ptr+j), i + 1, mul);
         }
         printf("*********************\n");
     }
@@ -22,9 +23,9 @@ int main()
     scanf("%d", &k);
     for (int n = 0; n < k; n++)
     {
-        printf("enter no:%d table\n",(n+1));
+        printf("enter no:%d table\n", (n + 1));
         scanf("%d", &arr[n]);
-    }   
+    }
     tab(arr, k);
     return 0;
 }
