@@ -6,16 +6,12 @@ int main()
 	printf("enter number :");
 	scanf("%d", &a);
 	if (a % 2)
-
 	{
-		printf("odd\n");
+		printf("%d is odd\n", a);
 	}
-
 	else
-
 	{
-		printf("even\n");
+		printf("%d is even\n", a);
 	}
-
 	return 0;
 }
